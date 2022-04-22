@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Header section  */
+header,
+footer {
+    padding: 20px;
+    background-color:#357BA6;
+    color: aliceblue;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: aliceblue;
+}
+
+header a {
+    font-size: 1.1rem;
+    padding-right: 20px;
+}
+
+header .icon {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-right: 50px;
+}
+
+header nav {
+    display: inline-block;
+}
+
+header nav a:hover,
+footer a:hover {
+    color:rgb(185, 185, 229);
+}
+
+/* Main section */
+main {
+    padding: 20px;
+}
+
+main h1 {
+    color: #357BA6;
+    font-size: 2rem;
+    margin: 30px 0;
+}
+
+main p {
+    margin: 20px 0;
+}
+
+main p strong {
+    color: #357BA6;
+}
+
+main a {
+    text-decoration: none;
+    padding: 10px 25px;
+
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+/* membership link */
+main a.membership {
+    color: coral;
+}
+
+main a.membership:hover {
+    background-color: coral;
+    color: aliceblue;
+}
+
+/* Social media links */
+main a.social-media {
+    font-weight: bolder;
+    font-size: 1.3rem;
+    padding: 15px 30px;
+    margin-right: 30px;
+
+    box-shadow: 2px 2px 10px 0px #357BA650;
+}
+
+main a.social-media.ins {
+    background-color: #E1306C;
+}
+
+main a.social-media.ins:hover {
+    color: #E1306C;
+    background-color: aliceblue;
+}
+
+main a.social-media.fb {
+    background-color: #4267B2;
+}
+
+main a.social-media.fb:hover {
+    color: #4267B2;
+    background-color: aliceblue;
+}
+
+main a.social-media.ytb {
+    background-color: #FF0000;
+}
+
+main a.social-media.ytb:hover {
+    color: #FF0000;
+    background-color: aliceblue;
+}
+
+/* Testimonial section */
+h4 {
+    display: inline-block;
+    color: #357BA6;
+}
+
+h4,
+.text-container p{
+    margin: 10px 20px;
+}
+
+.card-list{
+    margin: 50px 150px;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card img {
+    width: 100%;
+}
+
+/* Footer section */
+footer h2{
+    font-weight: normal;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul.popular-features {
+    padding-left: 0;
+    font-weight: bold;
+}
+
+footer li .location {
+    font-weight: normal;
+}
+
+
+
+
